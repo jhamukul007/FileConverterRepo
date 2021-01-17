@@ -19,7 +19,7 @@ import com.itextpdf.text.PageSize;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfWriter;
 
-@Service
+@Service("textPdfConverter")
 public class TextPdfConverter extends BasePDFConverter {
 
 	@Override
