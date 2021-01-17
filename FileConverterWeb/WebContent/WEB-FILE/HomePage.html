@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>converturfile.com</title>
+<script src="js-file/pdfFileConverter.js"></script>
+<script src="js-file/FileExtension.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+	<div>
+		<label class="" for="fileUpload">Select File *</label>
+		<div>
+			<input type="file" id="upload_file" class="" name="file" size=25>
+			<input type="radio" id="PDF" name="convert_to" value="PDF">
+			<label style="font-size: 25px;" for="PDF">pdf</label>
+			<input type="radio" id="convert_to" name="convert_to" value="TEXT">
+			<label style="font-size: 25px;" for="TEXT">text</label>
+			<input style="margin-left: 2%; font-size: 25px;" type="submit" onclick="convertTextToPDF(this);">
+		</div>
+	</div>
+</body>
+</html>
